@@ -11,6 +11,7 @@ export default class DynamicDivGenerator extends React.Component {
         this.handleUpOrDown();
     }
 
+    // Add or subtracts Invader based on if it reaches the max count
     handleUpOrDown = () => {
         setInterval(() => {
             console.log('running')
